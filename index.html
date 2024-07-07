@@ -3,17 +3,29 @@
   <head>
     <meta charset="UTF-8" />
     <meta content="ie=edge" http-equiv="X-UA-Compatible" />
-    <meta content="width=device-width,initial-scale=1.0" name="viewport" user-scalable="no" />
+    <meta
+      content="width=device-width,initial-scale=1.0"
+      name="viewport"
+      user-scalable="no"
+      shrink-to-fit="no"
+    />
     <meta content="#011935" name="apple-mobile-web-app-status-bar-style" />
     <meta name="application-name" content="NOVA ( RYZEX ) NEXUS" />
     <meta name="apple-mobile-web-app-title" content="NOVA ( RYZEX ) NEXUS" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
 
     <!-- seo -->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="language" content="English" />
+    <meta name="revisit-after" content="1 days" />
+    <meta name="author" content="Nova-Ryzex Team" />
     <meta name="description" content="NOVA ( RYZEX ) NEXUS" />
     <meta name="keywords" content="NOVA ( RYZEX ) NEXUS" />
     <meta name="author" content="NOVA ( RYZEX ) NEXUS" />
-    <meta name="robots" content="index, follow" />
+    <meta
+      name="robots"
+      content="index, follow, max-image-preview:large,max-snippet:-1, max-video-preview:-1"
+    />
     <meta name="googlebot" content="index, follow" />
     <meta name="google" content="notranslate" />
     <meta content="NOVA ( RYZEX ) NEXUS" property="og:site_name" />
@@ -25,10 +37,23 @@
       property="twitter:image"
       content="https://icons.novaryzex.software/apple-touch-icon.png"
     />
+    <meta property="og:url" content="https://novaryzex.software/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="NOVA ( RYZEX ) NEXUS" />
+    <meta property="og:description" content="NOVA ( RYZEX ) NEXUS" />
+    <meta property="og:site_name" content="NOVA ( RYZEX ) NEXUS" />
+    <meta property="og:locale" content="en_US" />
     <meta property="og:image" content="https://icons.novaryzex.software/apple-touch-icon.png" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="https://novaryzex.software/" />
+    <meta property="twitter:site" content="@novaryzex" />
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:title" content="NOVA ( RYZEX ) NEXUS" />
     <meta property="twitter:description" content="NOVA ( RYZEX ) NEXUS" />
+    <meta
+      property="twitter:image"
+      content="https://icons.novaryzex.software/apple-touch-icon.png"
+    />
 
     <!-- favicon start -->
     <link rel="favicon" href="https://icons.novaryzex.software/favicon.ico" />
@@ -240,24 +265,27 @@
       name="msapplication-config"
       content="https://icons.novaryzex.software/browserconfig.xml"
     />
-   <meta name="manifest" content="https://icons.novaryzex.software/site.webmanifest" />
+    <meta name="manifest" content="https://icons.novaryzex.software/site.webmanifest" />
     <!-- favicon end -->
 
     <!-- Font Awesome -->
     <link
+      rel="preload"
+      onload="this.onload=null;this.rel='stylesheet'"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
-      rel="stylesheet"
     />
     <!-- Google Fonts -->
     <link
+      rel="preload"
+      onload="this.onload=null;this.rel='stylesheet'"
       href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
       rel="stylesheet"
     />
 
     <title>NOVA ( RYZEX ) NEXUS</title>
   </head>
-  <body>
-    <div id="app"></div>
+  <body class="bg-dark no-scrollbar text-white min-vh-100 d-flex justify-center align-items-center">
+    <div id="app" class="m-auto m-0 position-relative shadow-5"></div>
     <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
