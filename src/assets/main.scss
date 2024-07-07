@@ -1,0 +1,46 @@
+// Variable overrides first
+$primary: #900;
+$enable-shadows: true;
+$prefix: 'mo-';
+
+@import 'bootstrap/scss/bootstrap';
+@import 'bootstrap/scss/bootstrap-reboot';
+@import 'mdb-vue-ui-kit/css/mdb.min.css';
+@import '_variables';
+@import '_normalize';
+
+body {
+  font-family: $font-stack;
+  background: $img-bg-8 $bg-img-8;
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+}
+#app {
+  font-family: $font-stack;
+  border-radius: 0.1rem;
+  padding: 0.5rem;
+  width: 98vw;
+  height: 98vh;
+  margin: 0 auto;
+  position: relative;
+  overflow: scroll;
+}
+
+.View {
+  height: 100vh;
+  padding: 1rem;
+  animation: View-Animation 1s ease;
+}
+
+@keyframes View-Animation {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

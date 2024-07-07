@@ -16,7 +16,7 @@ jobs:
 
     strategy:
       matrix:
-        node-version: [22.x, 18.x]
+        node-version: [22.x]
 
     steps:
       - name: Checkout code
@@ -39,6 +39,6 @@ jobs:
           server: ${{ secrets.FTP_HOSTNAME }}
           username: ${{ secrets.FTP_USERNAME }}
           password: ${{ secrets.FTP_PASSWORD }}
-          local-dir: ./dist
-          remote-dir: /htdocs/
+          local-dir: ./dist/
+          server-dir: /htdocs/
           dangerous-clean-slate: true
