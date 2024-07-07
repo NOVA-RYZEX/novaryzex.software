@@ -1,0 +1,17 @@
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <Gideon-Yebei>      -- <Developer> -- <@Gideon-Yebei>
+
+# THANKS
+
+    <Gideon-Yebei>
+
+# TECHNOLOGY COLOPHON
+
+    Vue.js, Typescript,
+    Bootstrap, MDBootstrap, SCSS,
+    Vercel, InfinityFree, GitHub Pages, Git,
+    Webstorm, VSCode.
