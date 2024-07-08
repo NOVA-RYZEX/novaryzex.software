@@ -129,11 +129,11 @@ export default defineComponent({
               repeat: -1,
               repeatDelay: 1,
               ease: Bounce.easeOut
-            },
-            0.15
+            }
           )
         );
       }
+
 
       function shootingStar() {
         const tl = new TimelineMax();
