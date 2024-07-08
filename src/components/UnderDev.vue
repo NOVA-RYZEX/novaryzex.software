@@ -173,9 +173,7 @@ export default defineComponent({
 </script>
 
 <style lang="scss" scoped>
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300');
-
-$mainFont: 'Open Sans', sans-serif;
+$mainFont: 'Roboto', sans-serif;
 
 *,
 *::before,
